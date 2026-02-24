@@ -748,6 +748,279 @@ footer ul li a:hover {
 
 .whatsapp-float:hover {
     transform: scale(1.1);
+}/* =========================================
+   MOBILE RESPONSIVE - FIX
+   ========================================= */
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+    
+    .nav-container {
+        flex-wrap: wrap;
+    }
+    
+    .nav-links {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: rgba(10, 10, 10, 0.98);
+        flex-direction: column;
+        padding: 20px;
+        border-bottom: 1px solid #d4af37;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .nav-btn {
+        display: none;
+    }
+    
+    /* Mobile Menu Button */
+    .menu-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: #fff;
+        cursor: pointer;
+    }
 }
+
+/* Mobile Hero Section */
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 100px 20px 60px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+/* Mobile Page Header */
+@media (max-width: 768px) {
+    .page-header {
+        height: 40vh;
+        min-height: 300px;
+        margin-top: 60px;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .page-header p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Info Grid */
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .info-card {
+        padding: 20px;
+    }
+}
+
+/* Mobile Services List */
+@media (max-width: 768px) {
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .service-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .service-item .icon {
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile Stats */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile Booking */
+@media (max-width: 768px) {
+    .booking-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .booking-form {
+        padding: 25px;
+    }
+    
+    .booking-info {
+        order: -1;
+    }
+}
+
+/* Mobile Gallery */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .gallery-item {
+        height: 200px;
+    }
+}
+
+/* Mobile Contact */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .map-container iframe {
+        height: 250px;
+    }
+}
+
+/* Mobile Footer */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .footer-col {
+        text-align: center;
+    }
+}
+
+/* Mobile Welcome Screen */
+@media (max-width: 768px) {
+    .welcome-logo {
+        font-size: 4rem;
+    }
+    
+    .welcome-title {
+        font-size: 2rem;
+    }
+    
+    .welcome-subtitle {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Forms */
+@media (max-width: 768px) {
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 12px;
+        font-size: 1rem;
+    }
+    
+    .submit-btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile WhatsApp Float */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+/* Mobile Lightbox */
+@media (max-width: 768px) {
+    #lightbox img {
+        max-width: 95%;
+        max-height: 80%;
+    }
+}
+
+/* General Mobile Fixes */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .text-center {
+        margin-top: 30px;
+    }
+}
+
+/* Very Small Mobile */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+}
+
 
 /* =========================================
